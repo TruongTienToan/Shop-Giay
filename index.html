@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop giày bóng đá</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/731/731962.png">
+</head>
+<body>
+    <img src="https://theme.hstatic.net/1000402257/1000876467/14/ms_banner_img2.jpg?v=92" id="logo">
+    <h1>Shop giày bóng đá Adidas</h1>
+    <table style="border: 1px solid black; width: 700px; float: right;">
+        <tbody>
+            <tr>
+                <th style="font-size: 40px;" colspan="7">Danh sách mẫu giày</th>
+            </tr>
+            <tr>
+                <th>Stt</th>
+                <th>Tên mẫu</th>
+                <th>Size</th>
+                <th>Màu sắc</th>
+                <th>Giá</th>
+                <th>Ảnh</th>
+                <th>Tùy chọn</th>
+            </tr>
+        <tbody id="list-shoes">
+        </tbody>    
+    </table>
+
+    <table border="1" style="width: 500px; height: 300px" ;>
+        <tr id="id1">
+            <th colspan="2">Thông tin giày bóng đá</th>
+        </tr>
+
+        <tr>
+            <th>Stt</th>
+            <td><input type="number" id="stt"></td>
+        </tr>
+        <tr>
+            <th>Tên mẫu</th>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <th>Size</th>
+            <td><input type="number" id="size"></td>
+        </tr>
+        <tr>
+            <th>Màu sắc</th>
+            <td><input type="text" id="color"></td>
+        </tr>
+        <tr>
+            <td><center>Giá</center></td>
+            <td><input  type="number" id="price"></td>
+        </tr>
+        <tr>
+            <th>Ảnh</th>
+            <td><input type="text" id="img"></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <button style="background-color: limegreen" id="add" onclick="addShoes()">Add</button>
+                <button style="background-color: gold" id="edit" onclick="updateShoes()">Save</button>
+            </td>
+        </tr>
+        
+    </table>
+    <script src="case1a.js"></script>
+    <script src="case1b.js"></script>
+    <script src="case1c.js"></script>
+    <link rel="stylesheet" href="case1.css">
+</body>
+</html>
